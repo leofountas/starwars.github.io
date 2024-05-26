@@ -3,22 +3,23 @@
 body {
     background-image: url(https://cdn.wallpapersafari.com/1/97/co341S.jpg);
     background-repeat: no-repeat;
-    backface-visibility: hidden;
     overflow: hidden;
     font-family: 'Roboto';
-    margin: 70% 0 0 0;
+    margin: 40% 0 0 0;
     position: relative;
+    height: 100vh;
 }
 
 .wrapper {
     display: flex;
     height: 100%;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     perspective: 450px;
 }
 
 .scroll-text {
+    font-size: 3vw;
     line-height: 1.5em;
     font-weight: bold;
     text-align: justify;
@@ -40,7 +41,7 @@ article h2 {
 
 article p {
     color: #ffc909;
-    font-size: 30px;
+    /*font-size: 30px;*/
 
 }
 
